@@ -7,7 +7,4 @@ LD_FILES = boards/MCUDEV_DEVEBOX_H743/stm32h743.ld boards/common_basic.ld
 TEXT0_ADDR = 0x08000000
 
 # MicroPython settings
-MICROPY_PY_LWIP = 1
-MICROPY_PY_USSL = 1
-MICROPY_SSL_MBEDTLS = 1
 MICROPY_VFS_LFS2 = 1
